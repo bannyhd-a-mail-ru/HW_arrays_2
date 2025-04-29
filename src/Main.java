@@ -34,7 +34,7 @@ public class Main {
         System.out.println("---------------------------------------------------------------------------------------------");
         System.out.println("Задача 3");
 
-        double averageMonthlyExpenses = sum / monthlyExpenses.length;
+        double averageMonthlyExpenses = (double) sum / monthlyExpenses.length;
 
         System.out.println("Средняя сумма трат за месяц составила " + averageMonthlyExpenses + " рублей");
 
